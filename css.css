@@ -1,0 +1,94 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "poppins";
+}
+body {
+  font-family: "Montserrat";
+}
+section {
+  height: 100vh;
+  width: 100%;
+  background-color: #c8ec42;
+}
+
+.navbar {
+  background: rgb(161, 159, 159);
+  padding: 1.2em;
+}
+.logo {
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(58, 56, 56);
+  font-size: 2em;
+}
+span {
+  color: rgba(243, 234, 239, 0.959);
+}
+
+nav {
+  display: inline-flexbox;
+  place-content: space-between;
+}
+
+.primary-nav {
+  font-weight: bold;
+  color: rgb(43, 41, 41);
+  font-size: 1em;
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch;
+  text-decoration: none;
+}
+
+main {
+  min-height: 100vh;
+  background: linear-gradient(to right top, #d7fa59, #c8ec42);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.glass {
+  background: white;
+  min-height: 80vh;
+  width: 60%;
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.7),
+    rgba(255, 255, 255, 0.3)
+  );
+  border-radius: 2rem;
+  z-index: 2;
+  backdrop-filter: blur(2rem);
+}
+
+.circle1,
+.circle2 {
+  background: white;
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.8),
+    rgba(255, 255, 255, 0.2)
+  );
+  height: 20rem;
+  width: 20rem;
+  position: absolute;
+  border-radius: 50%;
+}
+.circle1 {
+  top: 5%;
+  right: 15%;
+}
+.circle2 {
+  bottom: 5%;
+  right: 10%;
+}
+.link {
+  width: 500px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: inherit;
+}
